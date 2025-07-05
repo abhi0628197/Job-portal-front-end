@@ -1,0 +1,93 @@
+.company-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px 25px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.company-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #00212C;
+  font-size: 28px;
+}
+
+.company-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.company-form label {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #333;
+}
+
+.company-form input,
+.company-form textarea {
+  padding: 12px;
+  margin-top: 5px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s ease;
+}
+
+.company-form input:focus,
+.company-form textarea:focus {
+  outline: none;
+  border-color: #014C58;
+}
+
+.company-form button {
+  margin-top: 25px;
+  padding: 12px;
+  background-color: #00212C;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.company-form button:hover {
+  background-color: #014C58;
+  transform: scale(1.02);
+}
+
+.message {
+  margin-top: 20px;
+  font-weight: 600;
+  color: green;
+  text-align: center;
+}
+
+.already-registered {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.already-registered p {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.already-registered button {
+  background-color: #014C58;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.already-registered button:hover {
+  background-color: #006a82;
+  transform: scale(1.02);
+}
